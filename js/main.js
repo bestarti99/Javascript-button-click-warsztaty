@@ -52,6 +52,9 @@ function ajax(ajaxOptions) {
 }
 
 
+function pobierzDane(event) {
+    event.preventDefault();
+
 
 
 button.onclick = function () {
@@ -90,4 +93,3 @@ button.onclick = function () {
                 document.body.appendChild(endOfData);
             }
         });
-
